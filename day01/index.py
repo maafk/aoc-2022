@@ -33,5 +33,7 @@ def part_2(input):
     return sum(elf_calorie_count[:3])
 
 if __name__ == "__main__":
-    # print(part_1("input"))
-    print(part_2("input"))
+    part_1_result = part_1("input")
+    part_2_result = part_2("input")
+    print(f"part1: {part_1_result}")
+    print(f"part2: {part_2_result}")
