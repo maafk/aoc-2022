@@ -4,13 +4,13 @@ this_dir = os.path.dirname(this_file)
 
 def part_1(input):
     with open(f"{this_dir}/{input}", "r") as f:
-        lines = [x.strip() for x in f.readlines()] + [""]
+        lines = [x.strip() for x in f.readlines()]
     
    
 
 def part_2(input):
     with open(f"{this_dir}/{input}", "r") as f:
-        lines = [x.strip() for x in f.readlines()] + [""]
+        lines = [x.strip() for x in f.readlines()]
     
 
 if __name__ == "__main__":
